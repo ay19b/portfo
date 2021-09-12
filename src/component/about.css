@@ -1,0 +1,134 @@
+.about{
+    height:auto;
+    width: 90%;
+    margin:auto;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 9px;
+    position:relative;
+    box-shadow: -1px -1px 17px 1px white;
+}
+.inf-content h2{
+    text-decoration: underline #05968e;
+    color: white;
+    margin-bottom: 4%;
+
+}
+.about-cont{
+    padding: 22px;
+}
+.inf-content{
+    width: 100%;
+}
+.inf-content p{
+    font-size: 1.2rem;
+    color: #8a7c7c;
+    line-height: 23px;
+}
+.inf-content p strong{
+	color: #b56464;
+}
+h3{
+    margin-left: 3%;
+    font-weight: normal;
+}
+.list-skills{
+    margin-top: 4%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-bottom: 18%;
+}
+.list-skills .item-skill{
+    width:33%;
+    line-height: 3rem;
+}
+.item-skill svg{
+    font-size:2.5rem;
+}
+.item-skill svg:hover{
+    color: #b10b5e;
+}
+.list-skills .item-skill span{
+    color: white;
+    font-size: 1.4rem;
+}
+@media screen and (max-width:800px){
+    .inf-content p {
+        line-height: 30px;
+    }
+    .about .num-pg {
+    top: 90%;
+}
+}
+@media screen and (max-width:600px){
+.inf-content p {
+        line-height: 26px;
+}
+.inf-content{
+    width: 100%;
+}
+.about .num-pg {
+    top: 93%;
+}
+}
+@media screen and (max-width:480px){
+    .content.skl{
+        top: 8%;
+    }
+    .list-skills {
+        margin-top: 9%;
+    }
+    .item-skill svg {
+        font-size: 2rem;
+    }
+    h3 {
+        margin-left: 6%;
+    }
+    section.about .num-pg{
+        top: 95%;
+    }
+    section.about .num-pg .num {
+        font-size: 30px;
+        color: white;
+    }
+    section.about .num-pg .under-line {
+        width: 30px;
+        border: 1.6px solid #05968e;
+    }
+}
+@media screen and (max-width:320px){
+    .content.skl{
+        top: 6%;
+    }
+    .about-cont {
+        padding: 0px;
+    }
+    .list-skills {
+        margin-top: 20%;
+        margin-left: -23%;
+    }
+    .item-skill svg {
+        font-size: 1.6rem;
+    }
+    .inf-content {
+        margin-bottom: 10%;
+    }
+    .inf-content p {
+        font-size: 1rem;
+    }
+    section.about .num-pg{
+        top: 94%;
+    }
+    section.about .num-pg .num {
+        font-size: 30px;
+        color: white;
+    }
+    section.about .num-pg .under-line {
+        width: 30px;
+        border: 1.6px solid #05968e;
+    }
+}

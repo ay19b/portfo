@@ -1,0 +1,145 @@
+.project{
+    width: 90%;
+    margin:auto;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 9px;
+    position:relative;
+    box-shadow: -1px -1px 17px 1px white;
+}
+
+.content .cnt{
+    text-align:center;
+}
+.list-prg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    padding-bottom: 12%;
+}
+.prg {
+    width: 35%;
+    height: 9rem;
+    border-radius: 12px;
+    position: relative;
+    margin-right: 3%;
+    margin-bottom: 8%;
+    transition: 0.5s;
+    text-align: center;
+    background-color: #243433;
+    color: white;
+    box-shadow: 1px 1px 7px 2Px #0a3f3f;
+    cursor: pointer;
+}
+/*.prg:hover .buttons{
+    visibility:visible;
+}*/
+.prg img {
+    width: 100%;
+    height: 80%;
+}
+.prg:hover .overlay-project{
+   display:block;
+}
+.name-prg{
+    text-align: center;
+    margin-top: 58%;
+}
+.tit-project {
+    color: #fbfbfb;
+    position: absolute;
+    top: 81%;
+    left: 1%;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.tools {
+    position: absolute;
+    color: #af8c36;
+    top: 84%;
+    right: 2%;
+    display: flex;
+}
+.tools i {
+    font-size: 1.2rem;
+    margin-right: 13%;
+}
+/*
+.buttons {
+    position: absolute;
+    top: 153px;
+    left: 1%;
+    display: flex;
+    visibility: hidden;
+    WIDTH: 100%;
+    transition: 0.4s;
+}
+.buttons button {
+    background-color: #105652;
+    border: none;
+    color: white;
+    padding: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 2%;
+    width: 10rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: #0c3533;
+}
+*/
+
+@media screen and (max-width:800px){
+    
+}
+@media screen and (max-width:600px){
+.project .num-pg {
+        top: 88%;
+}
+}
+@media screen and (max-width:480px){
+
+  .list-prg {
+    flex-direction: column;
+    
+}
+.prg {
+    width: 70%;
+    margin-bottom: 14%;
+}
+section.project .num-pg{
+    top: 94%;
+}
+section.project .num-pg .num {
+    font-size: 30px;
+    color: white;
+}
+section.project .num-pg .under-line {
+    width: 30px;
+    border: 1.6px solid #05968e;
+}  
+}
+@media screen and (max-width:320px){
+.prg {
+    width: 70%;
+    margin-bottom: 17%;
+}
+.list-prg {
+    padding-bottom: 15%;
+}
+section.project .num-pg{
+    top: 94%;
+}
+section.project .num-pg .num {
+    font-size: 30px;
+    color: white;
+}
+section.project .num-pg .under-line {
+    width: 30px;
+    border: 1.6px solid #05968e;
+}
+}
