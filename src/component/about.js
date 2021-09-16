@@ -1,6 +1,5 @@
 import React from 'react'
 import './about.css'
-import {SiStyledComponents} from 'react-icons/si'
 import {DiReact} from 'react-icons/di'
 import {IoLogoJavascript} from 'react-icons/io'
 import {AiFillHtml5,AiFillGithub} from 'react-icons/ai'
@@ -33,7 +32,7 @@ export default function About() {
           
         </div>
         <h3>My experience is in the following areas:</h3>
-      <ul class="list-skills">
+      <ul className="list-skills">
 
         <li className="item-skill">
           <AiFillHtml5 />

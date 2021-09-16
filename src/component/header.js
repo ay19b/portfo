@@ -1,5 +1,5 @@
 
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import './header.css'
 
 
@@ -37,7 +37,7 @@ export default function Header() {
     return (
         
           <nav className={navbar?'active': ''}>
-            <div class="navbar-container">
+            <div className="navbar-container">
               <div className="logo">Portofolio</div>
             
                <ul className={showLinks ?"list-nav":"list-nav active"} >

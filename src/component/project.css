@@ -21,7 +21,7 @@
 }
 .prg {
     width: 35%;
-    height: 9rem;
+    height: 11rem;
     border-radius: 12px;
     position: relative;
     margin-right: 3%;
@@ -33,13 +33,38 @@
     box-shadow: 1px 1px 7px 2Px #0a3f3f;
     cursor: pointer;
 }
-/*.prg:hover .buttons{
-    visibility:visible;
-}*/
-.prg img {
-    width: 100%;
-    height: 80%;
+
+.prg:nth-child(1) .image {
+    background-image: url("../images/jumia.png");
+    background-size:cover;
 }
+.prg:nth-child(2) .image {
+    background-image: url("../images/jumia.png");
+    background-size:cover;
+}
+.prg:nth-child(3) .image {
+    background-image: url("../images/Xbox.png");
+    background-size:cover;
+}
+.prg:nth-child(4) .image {
+    background-image: url("../images/Xbox.png");
+    background-size:cover;
+}
+.prg:nth-child(5) .image {
+    background-image: url("../images/Xbox.png");
+    background-size:cover;
+}
+.prg:hover .image{
+    background-position:bottom;
+}
+
+.image{
+    height: 8.5rem;
+    overflow: hidden;
+    background-position:top;
+    transition:ease-in-out 9s;
+}
+
 .prg:hover .overlay-project{
    display:block;
 }
