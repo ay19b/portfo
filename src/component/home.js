@@ -9,8 +9,8 @@ export default function Home() {
               <h1 className="disc-content">Ayoub Benmerabet</h1>
               <span className="job-content">front-end developer(React js)</span>
               <div className="list-icons">
-                 <i className="fab fa-github"></i>
-                 <i className="fab fa-linkedin-in"></i>
+                 <a href="https://github.com/ay19b" target="_blank"><i className="fab fa-github"></i></a>
+                 <a href="https://www.linkedin.com/in/ayoub-ben-3a1793217/" target="_blank"><i className="fab fa-linkedin-in"></i></a>
                  <i className="fab fa-facebook-f"></i>
                  <i className="fab fa-instagram"></i>
               </div>

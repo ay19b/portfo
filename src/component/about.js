@@ -9,7 +9,8 @@ import {SiRedux} from 'react-icons/si'
 import {FaGit} from 'react-icons/fa'
 
 export default function About() {
-    return (
+
+return (
   <section className="about"id="about" >
 
     <div className="head-page">About Me</div>
@@ -26,12 +27,12 @@ export default function About() {
 
                 Building digital products is not just a job for me, it's a passion and a hobby as well.
                 <br/>
-                <br/><strong>Edication</strong>: self learning,
+                <br/><strong>Education</strong>: self learning,
              </p>
           </div>
           
         </div>
-        <h3>My experience is in the following areas:</h3>
+      <h3>My experience is in the following areas:</h3>
       <ul className="list-skills">
 
         <li className="item-skill">

@@ -5,7 +5,7 @@ export default function Contact() {
         <section className="contact" id="contact">
         <div className="content">
             <div className="line"></div>
-            <h1 className="name">let's work together</h1>
+            <h1 className="name">Get in touch</h1>
            
          <div className="inf">
          <div className="email">
@@ -25,10 +25,10 @@ export default function Contact() {
          
         </div>
         <div className="list-icons">
-                 <i className="fab fa-github"></i>
-                 <i className="fab fa-linkedin-in"></i>
-                 <i className="fab fa-facebook-f"></i>
-                 <i className="fab fa-instagram"></i>
+                <a href="https://github.com/ay19b" target="_blank"><i className="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ayoub-ben-3a1793217/" target="_blank"><i className="fab fa-linkedin-in"></i></a>
+                <i className="fab fa-facebook-f"></i>
+                <i className="fab fa-instagram"></i>
         </div>
         
         <div className="num-pg">

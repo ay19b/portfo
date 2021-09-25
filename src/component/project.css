@@ -38,22 +38,12 @@
     background-image: url("../images/jumia.png");
     background-size:cover;
 }
+
 .prg:nth-child(2) .image {
-    background-image: url("../images/jumia.png");
-    background-size:cover;
-}
-.prg:nth-child(3) .image {
     background-image: url("../images/Xbox.png");
     background-size:cover;
 }
-.prg:nth-child(4) .image {
-    background-image: url("../images/Xbox.png");
-    background-size:cover;
-}
-.prg:nth-child(5) .image {
-    background-image: url("../images/Xbox.png");
-    background-size:cover;
-}
+
 .prg:hover .image{
     background-position:bottom;
 }
@@ -137,7 +127,7 @@
     margin-bottom: 14%;
 }
 section.project .num-pg{
-    top: 94%;
+    top: 92%;
 }
 section.project .num-pg .num {
     font-size: 30px;
@@ -157,7 +147,7 @@ section.project .num-pg .under-line {
     padding-bottom: 15%;
 }
 section.project .num-pg{
-    top: 94%;
+    top: 92%;
 }
 section.project .num-pg .num {
     font-size: 30px;

@@ -60,6 +60,9 @@
     right: 12%;
     display: flex;
 }
+.contact .list-icons a{
+    margin-left: 14%;
+}
 .contact .list-icons i{
     margin-left: 15%;
     font-size:1.4rem
@@ -117,7 +120,7 @@ section.contact .num-pg .num {
         font-size: 0.9rem;
     }
     .contact .list-icons {
-        right: 26%;
+        right: 16%;
     }
     .contact .list-icons i {
         font-size: 1rem;
@@ -126,7 +129,7 @@ section.contact .num-pg .num {
         margin-bottom: 20%;
     }
     section.contact .num-pg{
-        top: 82%;
+        top: 86%;
     }
     section.contact .num-pg .num {
         font-size: 30px;

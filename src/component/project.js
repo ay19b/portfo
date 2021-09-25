@@ -7,6 +7,7 @@ export default function Project() {
          <div className="head-page">PROJECT</div>
          <div className="list-prg">
               <div className="prg">
+                <a href="https://ay19b.github.io/jumia" target="_blank">
                    <div className="image"></div>
                  
                   <div className="tit-project">Jumia Clone</div>
@@ -14,46 +15,23 @@ export default function Project() {
                     <i className="fab fa-react"></i>
                     <i className="fab fa-css3-alt"></i>
                   </div>
+                </a>
               </div>
 
-              <div className="prg">
-                  <div className="image"></div>
-                  <div className="tit-project">Jumia Clone</div>
-                  <div className="tools">
-                    <i className="fab fa-react"></i>
-                    <i className="fab fa-css3-alt"></i>
-                  </div>
-                 
-              </div>
+              
 
               <div className="prg">
+                <a href="https://ay19b.github.io/xbox" target="_blank">
                   <div className="image"></div>
                   <div className="tit-project">Xbox Clone</div>
                   <div className="tools">
                     <i className="fab fa-react"></i>
                     <i className="fab fa-css3-alt"></i>
                   </div>
-                  
+                </a>  
               </div>
 
-              <div className="prg">
-                  <div className="image"></div>
-                  <div className="tit-project">Xbox Clone</div>
-                  <div className="tools">
-                    <i className="fab fa-react"></i>
-                    <i className="fab fa-css3-alt"></i>
-                  </div>
-                  
-              </div>
-
-              <div className="prg">
-                  <div className="image"></div>
-                  <div className="tit-project">Xbox Clone</div>
-                  <div className="tools">
-                    <i className="fab fa-react"></i>
-                    <i className="fab fa-css3-alt"></i>
-                  </div>
-              </div>
+             
          </div>
 
          <div className="num-pg">
