@@ -43,7 +43,10 @@
     background-image: url("../images/Xbox.png");
     background-size:cover;
 }
-
+.prg:nth-child(3) .image {
+    background-image: url("../images/cryptoc.png");
+    background-size:cover;
+}
 .prg:hover .image{
     background-position:bottom;
 }
@@ -81,53 +84,14 @@
     font-size: 1.2rem;
     margin-right: 13%;
 }
-/*
-.buttons {
-    position: absolute;
-    top: 153px;
-    left: 1%;
-    display: flex;
-    visibility: hidden;
-    WIDTH: 100%;
-    transition: 0.4s;
-}
-.buttons button {
-    background-color: #105652;
-    border: none;
-    color: white;
-    padding: 4px;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-right: 2%;
-    width: 10rem;
-    font-weight: 900;
-    cursor: pointer;
-}
-.buttons button:hover{
-    background-color: #0c3533;
-}
-*/
 
-@media screen and (max-width:800px){
-    
-}
-@media screen and (max-width:600px){
-.project .num-pg {
-        top: 88%;
-}
-}
 @media screen and (max-width:480px){
-
-  .list-prg {
-    flex-direction: column;
-    
+ .list-prg {
+    flex-direction: column; 
 }
 .prg {
     width: 70%;
     margin-bottom: 14%;
-}
-section.project .num-pg{
-    top: 92%;
 }
 section.project .num-pg .num {
     font-size: 30px;
@@ -145,9 +109,6 @@ section.project .num-pg .under-line {
 }
 .list-prg {
     padding-bottom: 15%;
-}
-section.project .num-pg{
-    top: 92%;
 }
 section.project .num-pg .num {
     font-size: 30px;

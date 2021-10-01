@@ -10,7 +10,7 @@ export default function Project() {
                 <a href="https://ay19b.github.io/jumia" target="_blank">
                    <div className="image"></div>
                  
-                  <div className="tit-project">Jumia Clone</div>
+                  <div className="tit-project">jumia clone</div>
                   <div className="tools">
                     <i className="fab fa-react"></i>
                     <i className="fab fa-css3-alt"></i>
@@ -23,7 +23,18 @@ export default function Project() {
               <div className="prg">
                 <a href="https://ay19b.github.io/xbox" target="_blank">
                   <div className="image"></div>
-                  <div className="tit-project">Xbox Clone</div>
+                  <div className="tit-project">xbox clone</div>
+                  <div className="tools">
+                    <i className="fab fa-react"></i>
+                    <i className="fab fa-css3-alt"></i>
+                  </div>
+                </a>  
+              </div>
+
+              <div className="prg">
+                <a href="https://ay19b.github.io/Cryptocurrency" target="_blank">
+                  <div className="image"></div>
+                  <div className="tit-project">cryptocurrency</div>
                   <div className="tools">
                     <i className="fab fa-react"></i>
                     <i className="fab fa-css3-alt"></i>

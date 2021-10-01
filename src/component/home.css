@@ -52,9 +52,6 @@
     border: 1px solid transparent;
     margin-bottom: 24%;
     background-color: #3c6572;
-   /* animation-name: move;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;*/
 }
 @keyframes move {
     0%   {margin-top: 0;}
@@ -74,7 +71,7 @@
 
  section .num-pg{
     position: absolute;
-    top: 88%;
+    bottom: 3%;
     left: 4%;
 }
  section .num-pg .num{
@@ -107,8 +104,6 @@ section .num-pg .num {
 }
 @media screen and (max-width:600px){
     .home .num-pg {
-        position: absolute;
-        top: 87%;
         left: 4%;
     }
  .list-icons {
@@ -130,9 +125,7 @@ section .num-pg .under-line {
 }
 }
 @media screen and (max-width:480px){
-.home .num-pg{
-    top: 89%;
-}
+
 .home .num-pg .num {
      font-size: 30px;
      color: white;
@@ -157,8 +150,6 @@ section .num-pg .under-line {
  
 @media screen and (max-width:320px){
 section.home .num-pg{
-    position: absolute;
-    top: 85%;
     left: 4%;
 }
 section.home .num-pg .num {

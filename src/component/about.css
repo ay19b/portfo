@@ -88,9 +88,6 @@ h3{
     h3 {
         margin-left: 6%;
     }
-    section.about .num-pg{
-        top: 95%;
-    }
     section.about .num-pg .num {
         font-size: 30px;
         color: white;
@@ -119,9 +116,6 @@ h3{
     }
     .inf-content p {
         font-size: 1rem;
-    }
-    section.about .num-pg{
-        top: 94%;
     }
     section.about .num-pg .num {
         font-size: 30px;

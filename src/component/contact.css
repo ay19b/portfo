@@ -48,7 +48,7 @@
     width: 80%;
 }
 .email i{
-    COLOR: #05968e;
+    color: #05968e;
 }
 .email h3{
     margin-left: 2%;
@@ -67,19 +67,9 @@
     margin-left: 15%;
     font-size:1.4rem
 }
-@media screen and (max-width:800px){
-    .contact .num-pg {
-        top: 83%;
-    } 
-}
-@media screen and (max-width:600px){
-section.contact .num-pg {
-        top: 82%;
-}
-}
 @media screen and (max-width:480px){
 .email h3 {
-    font-size: 100%;
+    font-size: 95%;
 }
 .content .name {
     font-size: 2rem;
@@ -95,9 +85,7 @@ section.contact .num-pg {
 .contact .list-icons i {
     font-size: 1.1rem;
 }
-section.contact .num-pg {
-    top: 87%;
-}
+
 section.contact .num-pg .under-line {
     width: 30px;
     border: 1.6px solid #05968e;
@@ -114,10 +102,14 @@ section.contact .num-pg .num {
     .contact .email {
         margin-left: -19px;
         width:100%;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
     }
     .email h3 {
         margin-left: 2%;
         font-size: 0.9rem;
+        margin-top: 4%;
     }
     .contact .list-icons {
         right: 16%;
@@ -127,9 +119,6 @@ section.contact .num-pg .num {
     }
     .inf {
         margin-bottom: 20%;
-    }
-    section.contact .num-pg{
-        top: 86%;
     }
     section.contact .num-pg .num {
         font-size: 30px;
