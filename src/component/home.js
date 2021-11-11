@@ -1,26 +1,29 @@
-import React from 'react'
+import React, {useEffect } from "react";
 import './home.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 
 export default function Home() {
+	useEffect(()=>{
+	  Aos.init({duration:2000})
+    },[]);
     return (
-        <section className="home" id="home">
-           <div className="content">
+        <section className="home" id="home" >
+           <div className="content" data-aos="fade-right">
                <h5>Hi, my name is</h5>
               <h1 className="disc-content">Ayoub Benmerabet</h1>
               <span className="job-content">front-end developer(React js)</span>
               <div className="list-icons">
-                 <a href="https://github.com/ay19b" target="_blank"><i className="fab fa-github"></i></a>
-                 <a href="https://www.linkedin.com/in/ayoub-ben-3a1793217/" target="_blank"><i className="fab fa-linkedin-in"></i></a>
-                 <i className="fab fa-facebook-f"></i>
-                 <i className="fab fa-instagram"></i>
+                 <i className="fab fa-github" data-aos="fade-up" data-aos-delay="100"></i>
+                 <i className="fab fa-linkedin-in" data-aos="fade-up" data-aos-delay="300"></i>
+                 <i className="fab fa-facebook-f" data-aos="fade-up" data-aos-delay="500"></i>
+                 <i className="fab fa-instagram" data-aos="fade-up" data-aos-delay="800"></i>
               </div>
-              <button className="btn-content"><a href='#project'>see my work</a></button>
+              <button className="btn-content" data-aos="fade-right" data-aos-delay="650"><a href='#project'>see my work</a></button>
            </div>
 
-        <div className="num-pg">
-            <div className="num">01</div>
-            <div className="under-line"></div>
-        </div>
+        
         
       </section>
     )

@@ -14,13 +14,14 @@
 .list-prg{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    margin-top: 3%;
+    width: 90%;
+    margin: auto;
     padding-bottom: 12%;
 }
 .prg {
-    width: 35%;
+    width: 46%;
     height: 11rem;
     border-radius: 12px;
     position: relative;
@@ -45,6 +46,14 @@
 }
 .prg:nth-child(3) .image {
     background-image: url("../images/cryptoc.png");
+    background-size:cover;
+}
+.prg:nth-child(4) .image {
+    background-image: url("../images/flashcard.png");
+    background-size:cover;
+}
+.prg:nth-child(5) .image {
+    background-image: url("../images/restuarent.png");
     background-size:cover;
 }
 .prg:hover .image{
