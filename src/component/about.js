@@ -3,6 +3,7 @@ import './about.css'
 import {DiReact} from 'react-icons/di'
 import {IoLogoJavascript} from 'react-icons/io'
 import {AiFillHtml5,AiFillGithub} from 'react-icons/ai'
+import {SiMaterialui} from 'react-icons/si'
 import {SiCss3} from 'react-icons/si'
 import {FaSass} from 'react-icons/fa'
 import {SiRedux} from 'react-icons/si'
@@ -48,7 +49,7 @@ return (
           <Typography variant='h3'><IoLogoJavascript /></Typography> 
         </li> 
         <li className="item-skill" data-aos="fade-up" data-aos-delay="550" data-aos-once="true">
-          <Typography variant='h3'><FaSass /></Typography>         
+          <Typography variant='h3'><FaSass/></Typography>         
         </li>
         
         

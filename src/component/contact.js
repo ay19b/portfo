@@ -1,6 +1,6 @@
 import React, {useEffect } from "react";
 import "./contact.css"
-import {Typography,Button} from '@material-ui/core'
+import {Typography} from '@material-ui/core'
 import {GrFacebookOption,GrGithub,GrInstagram} from 'react-icons/gr'
 import {FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'

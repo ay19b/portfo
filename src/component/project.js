@@ -1,5 +1,5 @@
 import React, {useEffect } from "react";
-import {Typography,Button} from '@material-ui/core'
+import {Typography} from '@material-ui/core'
 import {GrReactjs} from 'react-icons/gr'
 import {DiCss3} from 'react-icons/di'
 import './project.css'
@@ -18,7 +18,8 @@ export default function Project() {
          <div className="list-prg">
               <div className="prg" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
                 <a href="https://ay19b.github.io/jumia" target="_blank">
-                   <div className="image"></div>
+                
+                <div className="image"></div>
                  <div className='detail-prg'>
                   <Typography variant='h6' className="tit-project">jumia clone</Typography>
                   <div className="tools">

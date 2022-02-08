@@ -42,24 +42,32 @@ export default function Header() {
                <ul className={showLinks ?"list-nav":"list-nav active"} >
               
                 <li className="item-nav">
+                 <Typography variant='button'>
                   <a href="#home" onClick={handleClick}>
-                    <Typography variant='button'>HOME</Typography>
+                    HOME
                   </a>
+                  </Typography>
                 </li>
                 <li className="item-nav">
+                  <Typography variant='button'>
                   <a href="#about" onClick={handleClick}>
-                    <Typography variant='button'>ABOUT</Typography>
+                    ABOUT
                   </a>
+                  </Typography>
                 </li>
                 <li className="item-nav">
+                  <Typography variant='button'>
                    <a href="#project" onClick={handleClick}>
-                     <Typography variant='button'>PROJECT</Typography>
+                     PROJECT
                    </a>
+                  </Typography>  
                 </li>
                 <li className="item-nav">
+                  <Typography variant='button'>
                    <a href="#contact" onClick={handleClick}>
-                    <Typography variant='button'>CONTACT</Typography>
+                    CONTACT
                    </a>
+                   </Typography>
                 </li>
                </ul>
              
