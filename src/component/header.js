@@ -1,7 +1,6 @@
-
 import React, { useState, useEffect } from 'react';
 import './header.css'
-
+import {Typography} from '@material-ui/core'
 
 export default function Header() {
     const [showLinks, setShowLinks] = useState(false);
@@ -38,28 +37,28 @@ export default function Header() {
         
           <nav className={navbar?'active': ''}>
             <div className="navbar-container">
-              <div className="logo">Portofolio</div>
+             <Typography variant='h5'className="logo" >PORTFOLIO</Typography>
             
                <ul className={showLinks ?"list-nav":"list-nav active"} >
               
                 <li className="item-nav">
                   <a href="#home" onClick={handleClick}>
-                    HOME
+                    <Typography variant='button'>HOME</Typography>
                   </a>
                 </li>
                 <li className="item-nav">
                   <a href="#about" onClick={handleClick}>
-                    ABOUT
+                    <Typography variant='button'>ABOUT</Typography>
                   </a>
                 </li>
                 <li className="item-nav">
                    <a href="#project" onClick={handleClick}>
-                   PROJECT
+                     <Typography variant='button'>PROJECT</Typography>
                    </a>
                 </li>
                 <li className="item-nav">
                    <a href="#contact" onClick={handleClick}>
-                   CONTACT
+                    <Typography variant='button'>CONTACT</Typography>
                    </a>
                 </li>
                </ul>

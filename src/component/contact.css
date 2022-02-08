@@ -47,34 +47,28 @@
     padding-left: 10%;
     width: 80%;
 }
-.email i{
+.email .icon{
     color: #05968e;
+    margin-right: 3%;
 }
 .email h3{
     margin-left: 2%;
 }
 
 .contact .list-icons{
-    position: absolute;
-    bottom: 4%;
-    right: 12%;
     display: flex;
+    justify-content: end;
 }
 .contact .list-icons a{
     margin-left: 14%;
 }
-.contact .list-icons i{
-    margin-left: 15%;
-    font-size:1.4rem
+.contact .list-icons .icon{
+    color:white;
+}
+.contact .list-icons .icon:hover{
+    color: #05968e;
 }
 @media screen and (max-width:480px){
-.email h3 {
-    font-size: 95%;
-}
-.content .name {
-    font-size: 2rem;
-    margin-bottom: 17%;
-}
 .contact .list-icons {
     right: 18%;
 }
@@ -82,21 +76,14 @@
     margin-top: 8%;
     margin-bottom: 8%;
 }
-.contact .list-icons i {
-    font-size: 1.1rem;
-}
 
 section.contact .num-pg .under-line {
     width: 30px;
     border: 1.6px solid #05968e;
 }
-section.contact .num-pg .num {
-    font-size: 30px;
-}
 }
 @media screen and (max-width:320px){
 .content .name {
-    font-size: 1.5rem;
     margin-bottom: 25%;
 }
     .contact .email {
@@ -106,26 +93,10 @@ section.contact .num-pg .num {
         flex-direction: column;
         padding: 10px;
     }
-    .email h3 {
-        margin-left: 2%;
-        font-size: 0.9rem;
-        margin-top: 4%;
-    }
     .contact .list-icons {
         right: 16%;
     }
-    .contact .list-icons i {
-        font-size: 1rem;
-    }
     .inf {
         margin-bottom: 20%;
-    }
-    section.contact .num-pg .num {
-        font-size: 30px;
-        color: white;
-    }
-    section.contact .num-pg .under-line {
-        width: 30px;
-        border: 1.6px solid #05968e;
     }
 }

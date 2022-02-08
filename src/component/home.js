@@ -1,5 +1,8 @@
 import React, {useEffect } from "react";
 import './home.css'
+import {Typography,Button} from '@material-ui/core'
+import {GrFacebookOption,GrGithub,GrInstagram} from 'react-icons/gr'
+import {FaLinkedin} from 'react-icons/fa'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
@@ -11,16 +14,16 @@ export default function Home() {
     return (
         <section className="home" id="home" >
            <div className="content" data-aos="fade-right">
-               <h5>Hi, my name is</h5>
-              <h1 className="disc-content">Ayoub Benmerabet</h1>
-              <span className="job-content">front-end developer(React js)</span>
+              <Typography variant="caption" gutterBottom>Hi, my name is</Typography>
+              <Typography variant='h3' gutterBottom>Ayoub Benmerabet</Typography>
+              <Typography variant='h6' gutterBottom>front-end developer(React js)</Typography>
               <div className="list-icons">
-                 <i className="fab fa-github" data-aos="fade-up" data-aos-delay="100"></i>
-                 <i className="fab fa-linkedin-in" data-aos="fade-up" data-aos-delay="300"></i>
-                 <i className="fab fa-facebook-f" data-aos="fade-up" data-aos-delay="500"></i>
-                 <i className="fab fa-instagram" data-aos="fade-up" data-aos-delay="800"></i>
+                 <Typography variant='h6' className="icon" gutterBottom data-aos="fade-up" data-aos-delay="100" data-aos-once="true"><GrGithub /></Typography>
+                 <Typography variant='h6' className="icon" gutterBottom data-aos="fade-up" data-aos-delay="100" data-aos-once="true"><GrFacebookOption /></Typography>
+                 <Typography variant='h6' className="icon" gutterBottom data-aos="fade-up" data-aos-delay="100" data-aos-once="true"><GrInstagram /></Typography>
+                 <Typography variant='h6' className="icon" gutterBottom data-aos="fade-up" data-aos-delay="100" data-aos-once="true"><FaLinkedin /></Typography>
               </div>
-              <button className="btn-content" data-aos="fade-right" data-aos-delay="650"><a href='#project'>see my work</a></button>
+              <Button variant="contained" className="btn-content" data-aos="fade-right" data-aos-delay="650"data-aos-once="true" ><a href='#project'>see my work</a></Button>
            </div>
 
         

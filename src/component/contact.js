@@ -1,5 +1,11 @@
 import React, {useEffect } from "react";
 import "./contact.css"
+import {Typography,Button} from '@material-ui/core'
+import {GrFacebookOption,GrGithub,GrInstagram} from 'react-icons/gr'
+import {FaLinkedin} from 'react-icons/fa'
+import {HiOutlineMail} from 'react-icons/hi'
+import {ImPhone} from 'react-icons/im'
+import {MdLocationOn} from 'react-icons/md'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
@@ -12,30 +18,30 @@ export default function Contact() {
         <section className="contact" id="contact">
         <div className="content">
             <div className="line"></div>
-            <h1 className="name">Get in touch</h1>
+            <Typography variant='h4' className="name">Get in touch</Typography>
            
-         <div className="inf" data-aos="fade-left">
+         <div className="inf" data-aos="fade-left" data-aos-once="true">
          <div className="email">
-             <i className="far fa-envelope"></i>
-             <h3>Benmerabetayoub95@gmail.com</h3>
+             <Typography variant='h6' className="icon"><HiOutlineMail /></Typography>
+             <Typography variant='h6'>Benmerabetayoub95 @gmail.com</Typography>
          </div>
          <div className="email">
-             <i className="fas fa-phone-alt"></i>
-             <h3>+213560656613</h3>
+             <Typography variant='h6' className="icon"><ImPhone /></Typography>
+             <Typography variant='h6'>+213560656613</Typography>
          </div>
          <div className="email">
-             <i className="fas fa-map-marker-alt"></i>
-             <h3>Setif-Algeria</h3>
+             <Typography variant='h6' className="icon"><MdLocationOn /></Typography>
+             <Typography variant='h6'>Setif-Algeria</Typography>
          </div>
          </div>
 
          
         </div>
-        <div className="list-icons" >
-                <i className="fab fa-github"></i>
-                <i className="fab fa-linkedin-in"></i>
-                <i className="fab fa-facebook-f"></i>
-                <i className="fab fa-instagram"></i>
+        <div className="list-icons">
+            <Typography variant='h6' className="icon" gutterBottom ><GrGithub /></Typography>
+            <Typography variant='h6' className="icon" gutterBottom ><GrFacebookOption /></Typography>
+            <Typography variant='h6' className="icon" gutterBottom ><GrInstagram /></Typography>
+            <Typography variant='h6' className="icon" gutterBottom ><FaLinkedin /></Typography>
         </div>
         
         
