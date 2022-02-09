@@ -77,10 +77,6 @@
     margin-bottom: 8%;
 }
 
-section.contact .num-pg .under-line {
-    width: 30px;
-    border: 1.6px solid #05968e;
-}
 }
 @media screen and (max-width:320px){
 .content .name {

@@ -9,6 +9,7 @@ export const theme = createTheme({
         h4:{
             fontFamily: 'none',
             fontWeight: '700',
+            color:'white'
         },
         h5:{
             fontFamily: 'none',

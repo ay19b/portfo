@@ -18,8 +18,8 @@ export default function Project() {
          <div className="list-prg">
               <div className="prg" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
                 <a href="https://ay19b.github.io/jumia" target="_blank">
-                
                 <div className="image"></div>
+                
                  <div className='detail-prg'>
                   <Typography variant='h6' className="tit-project">jumia clone</Typography>
                   <div className="tools">
@@ -34,7 +34,7 @@ export default function Project() {
 
               <div className="prg" data-aos="fade-up" data-aos-delay="250"data-aos-once="true" >
                 <a href="https://ay19b.github.io/xbox" target="_blank">
-                  <div className="image"></div>
+                <div className="image"></div>
                   <div className='detail-prg'>
                   <Typography variant='h6' className="tit-project">Xbox clone</Typography>
                   <div className="tools">
@@ -48,7 +48,7 @@ export default function Project() {
               
 			  <div className="prg" data-aos="fade-up" data-aos-delay="400"data-aos-once="true" >
                 <a href="https://ay19b.github.io/Cryptocurrency" target="_blank">
-                  <div className="image"></div>
+                <div className="image"></div>
                   <div className='detail-prg'>
                   <Typography variant='h6' className="tit-project">cryptocurrency</Typography>
                   <div className="tools">
@@ -61,7 +61,7 @@ export default function Project() {
 			  
 			  <div className="prg" data-aos="fade-up" data-aos-delay="550" data-aos-once="true">
                 <a href="https://ay19b.github.io/FlashCard" target="_blank">
-                  <div className="image"></div>
+                <div className="image"></div>
                   <div className='detail-prg'>
                   <Typography variant='h6' className="tit-project">flashcard</Typography>
                   <div className="tools">
@@ -74,7 +74,7 @@ export default function Project() {
 			  
 			  <div className="prg" data-aos="fade-up" data-aos-delay="700"data-aos-once="true" >
                 <a href="https://ay19b.github.io/restaurant" target="_blank">
-                  <div className="image"></div>
+                <div className="image"></div>
                   <div className='detail-prg'>
                   <Typography variant='h6' className="tit-project">restaurant</Typography>
                   <div className="tools">

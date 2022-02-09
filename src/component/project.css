@@ -34,6 +34,13 @@
     box-shadow: 1px 1px 7px 2Px #0a3f3f;
     cursor: pointer;
 }
+.prg a{
+    text-decoration: none;
+}
+.prg .image{
+    background-size:cover;
+}
+
 
 .prg:nth-child(1) .image {
     background-image: url("../images/jumia.png");
@@ -52,11 +59,13 @@
     background-image: url("../images/flashcard.png");
     background-size:cover;
 }
+
 .prg:nth-child(5) .image {
     background-image: url("../images/restuarent.png");
     background-size:cover;
 }
-.image:hover{
+
+.prg:hover .image{
     background-position:bottom;
 }
 
@@ -66,7 +75,11 @@
     background-position:top;
     transition:ease-in-out 9s;
 }
-
+.image img{
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+}
 .prg:hover .overlay-project{
    display:block;
 }
@@ -82,7 +95,7 @@
 .tit-project {
     color: #fbfbfb;
     font-weight: bold;
-    font-size: 1.2rem;
+    text-decoration: none;
 }
 .tools {
     padding-top: 3%;
@@ -93,7 +106,16 @@
     font-size: 1.2rem;
     margin-right: 13%;
 }
-
+@media screen and (max-width:600px){
+    .list-prg {
+       flex-direction: column; 
+   }
+   .prg {
+       width: 70%;
+       margin-bottom: 14%;
+   }
+    
+   }
 @media screen and (max-width:480px){
  .list-prg {
     flex-direction: column; 
@@ -102,14 +124,7 @@
     width: 70%;
     margin-bottom: 14%;
 }
-section.project .num-pg .num {
-    font-size: 30px;
-    color: white;
-}
-section.project .num-pg .under-line {
-    width: 30px;
-    border: 1.6px solid #05968e;
-}  
+ 
 }
 @media screen and (max-width:320px){
 .prg {
@@ -119,12 +134,5 @@ section.project .num-pg .under-line {
 .list-prg {
     padding-bottom: 15%;
 }
-section.project .num-pg .num {
-    font-size: 30px;
-    color: white;
-}
-section.project .num-pg .under-line {
-    width: 30px;
-    border: 1.6px solid #05968e;
-}
+
 }

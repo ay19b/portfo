@@ -16,7 +16,7 @@ export default function Home() {
            <div className="content" data-aos="fade-right">
               <Typography variant="caption" gutterBottom>Hi, my name is</Typography>
               <Typography variant='h3' gutterBottom>Ayoub Benmerabet</Typography>
-              <Typography variant='h6' gutterBottom>front-end developer(React js)</Typography>
+              <Typography variant='h5' gutterBottom>front-end developer (React js)</Typography>
               <div className="list-icons">
                  <Typography variant='h6' className="icon" gutterBottom data-aos="fade-up" data-aos-delay="100" data-aos-once="true"><GrGithub /></Typography>
                  <Typography variant='h6' className="icon" gutterBottom data-aos="fade-up" data-aos-delay="100" data-aos-once="true"><GrFacebookOption /></Typography>

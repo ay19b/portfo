@@ -8,7 +8,7 @@ import {SiCss3} from 'react-icons/si'
 import {FaSass} from 'react-icons/fa'
 import {SiRedux} from 'react-icons/si'
 import {FaGit} from 'react-icons/fa'
-import {Typography,Button} from '@material-ui/core'
+import {Typography,Tooltip} from '@material-ui/core'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
@@ -38,34 +38,47 @@ return (
         </div>
       <Typography data-aos="fade-right" data-aos-delay="50" data-aos-once="true">My experience is in the following areas:</Typography>
       <ul className="list-skills">
-
+       <Tooltip title="Html" placement="top"> 
         <li className="item-skill" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
           <Typography variant='h3'><AiFillHtml5 /></Typography>
         </li>
+        </Tooltip>
+        <Tooltip title="Css" placement="top">
         <li className="item-skill" data-aos="fade-up" data-aos-delay="250" data-aos-once="true">
           <Typography variant='h3'><SiCss3 /></Typography>         
         </li>
+        </Tooltip>
+        <Tooltip title="Javascript" placement="top">
         <li className="item-skill" data-aos="fade-up" data-aos-delay="400" data-aos-once="true">
           <Typography variant='h3'><IoLogoJavascript /></Typography> 
         </li> 
+        </Tooltip>
+        <Tooltip title="Sass" placement="top">
         <li className="item-skill" data-aos="fade-up" data-aos-delay="550" data-aos-once="true">
           <Typography variant='h3'><FaSass/></Typography>         
         </li>
+        </Tooltip>
+        <Tooltip title="Delete">
         
-        
-        <li className="item-skill" data-aos="fade-up" data-aos-delay="700" data-aos-once="true">
+        <li className="React" data-aos="fade-up" data-aos-delay="700" data-aos-once="true">
           <Typography variant='h3'><DiReact /></Typography>
         </li>
+        </Tooltip>
+        <Tooltip title="Redex" placement="top">
         <li className="item-skill" data-aos="fade-up" data-aos-delay="850" data-aos-once="true">
           <Typography variant='h3'><SiRedux /></Typography>        
         </li>
-
+        </Tooltip>
+        <Tooltip title="Github">
         <li className="item-skill" data-aos="fade-up" data-aos-delay="1000" data-aos-once="true">
           <Typography variant='h3'><AiFillGithub /></Typography>         
         </li>
+        </Tooltip>
+        <Tooltip title="Git">
         <li className="item-skill" data-aos="fade-up" data-aos-delay="1150" data-aos-once="true">
           <Typography variant='h3'><FaGit /></Typography>
         </li>
+        </Tooltip>
         
       </ul>
       </div>
