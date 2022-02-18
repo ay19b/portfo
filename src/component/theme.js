@@ -3,28 +3,26 @@ import { createTheme } from '@material-ui/core';
 export const theme = createTheme({
     typography:{
         h3:{
-            fontFamily: 'none',
+            
             fontWeight: '700',
         },
         h4:{
-            fontFamily: 'none',
             fontWeight: '700',
             color:'white'
         },
         h5:{
-            fontFamily: 'none',
             fontWeight: '700',
+            fontSize: '1.1rem',
         },
         h6:{
-            fontFamily: 'none',
             fontWeight: '700',
+            fontSize: '1rem',
         },
         body1:{
-            fontFamily: 'none',
-            fontWeight: '700',
+            fontWeight: '500',
+            fontSize:'1rem',
         },
         button:{
-            fontFamily: 'none',
             fontWeight: '700',
         }
     },

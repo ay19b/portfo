@@ -18,12 +18,12 @@ export default function Contact() {
         <section className="contact" id="contact">
         <div className="content">
             <div className="line"></div>
-            <Typography variant='h4' className="name">Get in touch</Typography>
+            <Typography variant='h4'>Get in touch</Typography>
            
          <div className="inf" data-aos="fade-left" data-aos-once="true">
          <div className="email">
              <Typography variant='h6' className="icon"><HiOutlineMail /></Typography>
-             <Typography variant='h6'>Benmerabetayoub95 @gmail.com</Typography>
+             <Typography variant='h6'>Benmerabetayoub95@gmail.com</Typography>
          </div>
          <div className="email">
              <Typography variant='h6' className="icon"><ImPhone /></Typography>

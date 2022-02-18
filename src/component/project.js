@@ -19,7 +19,7 @@ export default function Project() {
               <div className="prg" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
                 <a href="https://ay19b.github.io/jumia" target="_blank">
                 <div className="image"></div>
-
+                
                  <div className='detail-prg'>
                   <Typography variant='h6' className="tit-project">jumia clone</Typography>
                   <div className="tools">
@@ -27,7 +27,7 @@ export default function Project() {
                    <Typography variant='h6' className="tit-project"><DiCss3 /></Typography>
                   </div>
                   </div> 
-                </a>
+                  </a>
               </div>
 
               
