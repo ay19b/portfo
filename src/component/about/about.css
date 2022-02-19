@@ -8,6 +8,7 @@
     position:relative;
     box-shadow: -1px -1px 17px 1px white;
     text-align: center;
+    padding: 1% 0% 3% 0%;
 }
 .inf-content h2{
     text-decoration: underline #05968e;
@@ -16,7 +17,7 @@
 
 }
 .about-cont{
-    padding: 22px;
+    padding: 4% 0%;
 }
 .inf-content{
     width: 100%;
@@ -33,29 +34,14 @@ h3{
     font-weight: normal;
 }
 .list-skills{
-    margin-top: 10%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    list-style: none;
-    margin-bottom: 18%;
+    margin: 10% 0%;
 }
-.list-skills .item-skill{
-    width:33%;
-    line-height: 3rem;
-}
-.item-skill svg{
-    font-size:2.5rem;
-}
+
+
 .item-skill svg:hover{
     color: #b10b5e;
 }
-.list-skills .item-skill span{
-    color: white;
-    font-size: 1.4rem;
-}
+
 @media screen and (max-width:800px){
     .inf-content p {
         line-height: 30px;

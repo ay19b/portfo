@@ -16,21 +16,22 @@ export default function Contact() {
     },[]);
     return (
         <section className="contact" id="contact">
+            
         <div className="content">
             <div className="line"></div>
             <Typography variant='h4'>Get in touch</Typography>
            
          <div className="inf" data-aos="fade-left" data-aos-once="true">
-         <div className="email">
-             <Typography variant='h6' className="icon"><HiOutlineMail /></Typography>
-             <Typography variant='h6'>Benmerabetayoub95@gmail.com</Typography>
+         <div className="detail-inf">
+             <Typography variant='h5' className="icon"><HiOutlineMail /></Typography>
+             <Typography variant='h6'>Benmerabetayoub95@ gmail.com</Typography>
          </div>
-         <div className="email">
-             <Typography variant='h6' className="icon"><ImPhone /></Typography>
+         <div className="detail-inf">
+             <Typography variant='h5' className="icon"><ImPhone /></Typography>
              <Typography variant='h6'>+213560656613</Typography>
          </div>
-         <div className="email">
-             <Typography variant='h6' className="icon"><MdLocationOn /></Typography>
+         <div className="detail-inf">
+             <Typography variant='h5' className="icon"><MdLocationOn /></Typography>
              <Typography variant='h6'>Setif-Algeria</Typography>
          </div>
          </div>
@@ -38,10 +39,10 @@ export default function Contact() {
          
         </div>
         <div className="list-icons">
-            <Typography variant='h6' className="icon" gutterBottom ><GrGithub /></Typography>
-            <Typography variant='h6' className="icon" gutterBottom ><GrFacebookOption /></Typography>
-            <Typography variant='h6' className="icon" gutterBottom ><GrInstagram /></Typography>
-            <Typography variant='h6' className="icon" gutterBottom ><FaLinkedin /></Typography>
+            <Typography variant='h5' className="icon" gutterBottom ><GrGithub /></Typography>
+            <Typography variant='h5' className="icon" gutterBottom ><GrFacebookOption /></Typography>
+            <Typography variant='h5' className="icon" gutterBottom ><GrInstagram /></Typography>
+            <Typography variant='h5' className="icon" gutterBottom ><FaLinkedin /></Typography>
         </div>
         
         

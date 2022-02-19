@@ -14,8 +14,17 @@ body{
     margin-top: 5%;
     font-size: 30px;
     font-weight: bold;
-    color: #cab3b3;
+    color: #fff;
     margin-bottom: 6%;
     padding-top: 3%;
 	text-decoration: underline #05968e;
+}
+a{
+    color:white !important
+}
+.MuiButton-root{
+    color: rgba(255, 255, 255, 0.87) !important;
+}  
+.MuiDivider-root {
+    background-color: rgba(255, 255, 255, 0.12)!important;
 }

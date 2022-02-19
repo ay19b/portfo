@@ -4,11 +4,12 @@
     background-position: bottom;
     width: 90%;
     margin:auto;
-    margin-top: 2%;
+    margin-bottom: 4%;
     border-radius: 9px;
     position:relative;
     box-shadow: -1px -1px 17px 1px white;
-    padding-bottom: 15%;
+    position: relative;
+    height: 88vh;
 }
 .home .h5{
     color: darkkhaki;
@@ -16,8 +17,9 @@
 .home .content{
     width: 90%;
     color: white;
-    padding-top: 19%;
-    padding-left: 8%;
+    position: absolute;
+    top: 35%;
+    left:8%;
 }
 .list-icons{
     display: flex;
