@@ -1,7 +1,5 @@
 import React, {useEffect } from "react";
-import {Typography,Grid, Button,Divider } from '@material-ui/core'
-import {AiFillGithub} from 'react-icons/ai'
-import {BsFillEyeFill} from 'react-icons/bs'
+import {Typography,Grid} from '@material-ui/core'
 import './project.css'
 import {Data} from './Data'
 import Aos from 'aos'
@@ -19,24 +17,22 @@ export default function Project() {
          <Grid container className="list-prg" justifyContent="space-around">
 
               {Data.map((item)=>{
-               const {id,img,name,live,code,iconOne,iconTwo}=item;
+               const {id,img,name,live,iconOne,iconTwo}=item;
                return(
-                <Grid item md={5} xs={12} sm={6}  className="prg" key={id} data-aos="fade-up" data-aos-delay="100*key"data-aos-once="true">
-                <div className="image"><img src={img}/></div>
-                
-                  <div className='detail-prg'>
-                    <Typography variant='h6' className="tit-project">{name}</Typography>
-                    <div className="tools">
-                     <Typography variant='h5' className="tit-project">{iconOne}</Typography>
-                     <Typography variant='h5' className="tit-project">{iconTwo}</Typography>
-                    </div>
-                  </div> 
-                  <Divider />
-                  <div className='detail-view'>
-                    <Button variant="outlined" startIcon={<AiFillGithub />}><a href={code} target="_blank">Code</a></Button>
-                    <Button variant="outlined" startIcon={<BsFillEyeFill />}><a href={live} target="_blank">Preview</a></Button> 
-                  </div>
-              </Grid> 
+                <Grid item md={5} xs={9} sm={6}  className="prg" key={id} data-aos="fade-up" data-aos-delay="100*key"data-aos-once="true">
+                  <a href={live} target="_blank">
+                     <div className="image"><img src={img}/></div>
+                     <div className='detail-prg'>
+                       <Typography variant='h6' className="tit-project">{name}</Typography>
+                       <div className="tools">
+                        <Typography variant='h5' className="tit-project">{iconOne}</Typography>
+                        <Typography variant='h5' className="tit-project">{iconTwo}</Typography>
+                       </div>
+                    
+                   </div> 
+                  </a>
+                  
+                </Grid> 
                    
                )
            })}

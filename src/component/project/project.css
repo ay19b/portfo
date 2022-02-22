@@ -14,7 +14,7 @@
     margin-top: 6%;
 }
 .prg {
-    margin-bottom: 5% !important;
+    margin-bottom: 7% !important;
     border-radius: 12px;
     position: relative;
     transition: 0.5s;
@@ -24,16 +24,6 @@
     box-shadow: 1px 1px 7px 2Px #0a3f3f;
     cursor: pointer;
 }
-.prg a{
-    text-decoration: none;
-}
-.prg img{
-    background-size:cover;
-}
-.image:hover img{
-    background-position:bottom;
-}
-
 .image{
     height: 8.5rem;
     overflow: hidden;
@@ -44,9 +34,6 @@
     width: 100%;
     background-size: cover;
     background-position: top;
-}
-.prg:hover .overlay-project{
-   display:block;
 }
 .name-prg{
     text-align: center;

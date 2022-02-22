@@ -1,5 +1,5 @@
 .home{
-    background-image:url(../images/background.png);
+    background-image:url(../../images/background.png);
     background-size: cover;
     background-position: bottom;
     width: 90%;
@@ -39,11 +39,6 @@
     border: 1px solid transparent;
     background-color: #3c6572;
 }
-@keyframes move {
-    0%   {margin-top: 0;}
-    50%  {margin-top: 10px;}
-    100% {margin-top:0px;}
-  }
 .btn-content a{
     text-decoration: none;
     color: #dad3d3;
@@ -58,19 +53,6 @@
  
 
 
-@media screen and (max-width:480px){
-.list-icons i {
-     margin-right: 5%;
- }
- .list-icons {
-    margin-bottom: 4%;
-    margin-left: 2%;
-}
- }
+
  
-@media screen and (max-width:320px){
-.list-icons i {
-    margin-right: 5%;
-}
-}
 

@@ -20,7 +20,11 @@ body{
 	text-decoration: underline #05968e;
 }
 a{
-    color:white !important
+    color:white !important;
+    text-decoration: none;
+}
+li::marker{
+    color:red
 }
 .MuiButton-root{
     color: rgba(255, 255, 255, 0.87) !important;
