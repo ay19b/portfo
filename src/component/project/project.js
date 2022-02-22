@@ -19,7 +19,7 @@ export default function Project() {
               {Data.map((item)=>{
                const {id,img,name,live,iconOne,iconTwo}=item;
                return(
-                <Grid item md={5} xs={9} sm={6}  className="prg" key={id} data-aos="fade-up" data-aos-delay="100*key"data-aos-once="true">
+                <Grid item md={5} xs={9} sm={5}  className="prg" key={id} data-aos="fade-up" data-aos-delay="100*key"data-aos-once="true">
                   <a href={live} target="_blank">
                      <div className="image"><img src={img}/></div>
                      <div className='detail-prg'>

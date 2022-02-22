@@ -37,33 +37,33 @@ export default function Header() {
         
           <nav className={navbar?'active': ''}>
             <div className="navbar-container">
-             <Typography variant='h5'className="logo" >PORTFOLIO</Typography>
+             <Typography variant='h5'className="logo">PORTFOLIO</Typography>
             
                <ul className={showLinks ?"list-nav":"list-nav active"} >
               
                 <li className="item-nav">
-                 <Typography variant='h6'>
+                <Typography variant='subtitle1'>
                   <a href="#home" onClick={handleClick}>
                     HOME
                   </a>
-                  </Typography>
+                  </Typography> 
                 </li>
                 <li className="item-nav">
-                  <Typography variant='h6'>
+                  <Typography variant='subtitle1'>
                   <a href="#about" onClick={handleClick}>
                     ABOUT
                   </a>
                   </Typography>
                 </li>
                 <li className="item-nav">
-                  <Typography variant='h6'>
+                  <Typography variant='subtitle1'>
                    <a href="#project" onClick={handleClick}>
                      PROJECT
                    </a>
                   </Typography>  
                 </li>
                 <li className="item-nav">
-                  <Typography variant='h6'>
+                  <Typography variant='subtitle1'>
                    <a href="#contact" onClick={handleClick}>
                     CONTACT
                    </a>

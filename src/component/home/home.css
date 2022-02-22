@@ -37,14 +37,14 @@
     color: #dad3d3;
     font-weight: bold;
     border: 1px solid transparent;
-    background-color: #3c6572;
+    background-color: #4490a8;
 }
 .btn-content a{
     text-decoration: none;
     color: #dad3d3;
 }
 .home .content .btn-content:hover{
-    background-color: #4e6167;
+    background-color: #477786;
 }
 .home .content .btn-content:focus{
     outline:none

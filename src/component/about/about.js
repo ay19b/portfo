@@ -29,44 +29,44 @@ return (
           </div>
           
         </div>
-         <Grid container justifyContent="center" spacing={4} className="list-skills">
+         <Grid container justifyContent="center" spacing={3} className="list-skills">
            <Grid item md={4} xs={6} sm={4} className="item-skill" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
               <Typography variant='h5'>
                 <li>Html</li>
               </Typography>
            </Grid>
-           <Grid item md={4} xs={6} sm={4} className="item-skill" data-aos="fade-up" data-aos-delay="250" data-aos-once="true">
+           <Grid item md={4} xs={6} sm={4} className="item-skill" data-aos="fade-up" data-aos-delay="150" data-aos-once="true">
               <Typography variant='h5'>
                 <li>Css</li>
               </Typography>
            </Grid>
-           <Grid item md={4} xs={6} sm={4} className="item-skill" data-aos="fade-up" data-aos-delay="400" data-aos-once="true">
+           <Grid item md={4} xs={6} sm={4} className="item-skill" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
               <Typography variant='h5'>
                 <li>Javascript</li>
               </Typography>
            </Grid>
-           <Grid item md={4} xs={6} sm={4} className="item-skill" data-aos="fade-up" data-aos-delay="700" data-aos-once="true">
+           <Grid item md={4} xs={6} sm={4} className="item-skill" data-aos="fade-up" data-aos-delay="250" data-aos-once="true">
               <Typography variant='h5'>
                  <li>React</li>
               </Typography>
            </Grid>
-           <Grid item md={4} xs={6} sm={4} className="item-skill" data-aos="fade-up" data-aos-delay="400" data-aos-once="true">
+           <Grid item md={4} xs={6} sm={4} className="item-skill" data-aos="fade-up" data-aos-delay="300" data-aos-once="true">
               <Typography variant='h5'>
                 <li>Material ui</li>
               </Typography>
            </Grid>
            
-           <Grid item md={4} xs={6} sm={4} className="item-skill"  data-aos="fade-up" data-aos-delay="850" data-aos-once="true">
+           <Grid item md={4} xs={6} sm={4} className="item-skill"  data-aos="fade-up" data-aos-delay="350" data-aos-once="true">
               <Typography variant='h5'>
-                <li>Redex Toolkit</li>
+                <li>Redex</li>
               </Typography>
            </Grid>
-           <Grid item md={4} xs={6} sm={4} className="item-skill" data-aos="fade-up" data-aos-delay="1000" data-aos-once="true">
+           <Grid item md={4} xs={6} sm={4} className="item-skill" data-aos="fade-up" data-aos-delay="400" data-aos-once="true">
               <Typography variant='h5'>
                 <li>Github</li>
               </Typography>
            </Grid>
-           <Grid item md={4} xs={6} sm={4} className="item-skill" data-aos="fade-up" data-aos-delay="1150" data-aos-once="true">
+           <Grid item md={4} xs={6} sm={4} className="item-skill" data-aos="fade-up" data-aos-delay="450" data-aos-once="true">
               <Typography variant='h5'>
                 <li>Git</li>
               </Typography>

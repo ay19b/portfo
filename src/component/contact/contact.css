@@ -52,22 +52,22 @@
     color: #04c3ff;
 }
 .contact .list-icons{
-    display: flex;
-    justify-content: end;
+    position: absolute;
+    bottom: 1%;
+    right: 4%;
 }
 .contact .list-icons a{
     margin-left: 14%;
 }
-.contact .list-icons .icon{
+.contact .list-icons .icons{
     color:white;
+    margin-right: 5%;
+    cursor: pointer;
 }
-.contact .list-icons .icon:hover{
+.contact .list-icons .icons:hover{
     color: #05968e;
 }
 @media screen and (max-width:480px){
-.contact .list-icons {
-    right: 18%;
-}
 .inf {
     margin-top: 8%;
     margin-bottom: 8%;
@@ -85,9 +85,7 @@
     flex-direction: column;
     padding: 10px;
 }
-.contact .list-icons {
-    right: 16%;
-}
+
 .inf {
     margin-bottom: 20%;
 }

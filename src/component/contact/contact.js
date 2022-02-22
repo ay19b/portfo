@@ -39,10 +39,10 @@ export default function Contact() {
          
         </div>
         <div className="list-icons">
-            <Typography variant='h5' className="icon" gutterBottom ><GrGithub /></Typography>
-            <Typography variant='h5' className="icon" gutterBottom ><GrFacebookOption /></Typography>
-            <Typography variant='h5' className="icon" gutterBottom ><GrInstagram /></Typography>
-            <Typography variant='h5' className="icon" gutterBottom ><FaLinkedin /></Typography>
+            <Typography variant='h5' className="icons" gutterBottom ><GrGithub /></Typography>
+            <Typography variant='h5' className="icons" gutterBottom ><GrFacebookOption /></Typography>
+            <Typography variant='h5' className="icons" gutterBottom ><GrInstagram /></Typography>
+            <Typography variant='h5' className="icons" gutterBottom ><FaLinkedin /></Typography>
         </div>
         
         
