@@ -17,7 +17,7 @@ export default function Project() {
          <Grid container className="list-prg" justifyContent="space-around">
 
               {Data.map((item)=>{
-               const {id,img,name,live,iconOne,iconTwo}=item;
+               const {id,img,name,live,iconOne,iconTwo,iconThree,iconFour}=item;
                return(
                 <Grid item md={5} xs={9} sm={5}  className="prg" key={id} data-aos="fade-up" data-aos-delay="100*key"data-aos-once="true">
                   <a href={live} target="_blank">
@@ -27,6 +27,8 @@ export default function Project() {
                        <div className="tools">
                         <Typography variant='h5' className="tit-project">{iconOne}</Typography>
                         <Typography variant='h5' className="tit-project">{iconTwo}</Typography>
+                        <Typography variant='h5' className="tit-project">{iconThree}</Typography>
+                        <Typography variant='h5' className="tit-project">{iconFour}</Typography>
                        </div>
                     
                    </div> 

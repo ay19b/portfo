@@ -24,7 +24,7 @@ a{
     text-decoration: none;
 }
 li::marker{
-    color:red
+    color:rgb(255, 0, 0) !important;
 }
 .MuiButton-root{
     color: rgba(255, 255, 255, 0.87) !important;
