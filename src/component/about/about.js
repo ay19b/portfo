@@ -47,7 +47,7 @@ return (
            </Grid>
            <Grid item md={4} xs={6} sm={4} className="item-skill" data-aos="fade-up" data-aos-delay="250" data-aos-once="true">
               <Typography variant='h5'>
-                 <li>React</li>
+                 <li>ReactJs</li>
               </Typography>
            </Grid>
            <Grid item md={4} xs={6} sm={4} className="item-skill" data-aos="fade-up" data-aos-delay="300" data-aos-once="true">
@@ -59,6 +59,11 @@ return (
            <Grid item md={4} xs={6} sm={4} className="item-skill"  data-aos="fade-up" data-aos-delay="350" data-aos-once="true">
               <Typography variant='h5'>
                 <li>Redex</li>
+              </Typography>
+           </Grid>
+           <Grid item md={4} xs={6} sm={4} className="item-skill"  data-aos="fade-up" data-aos-delay="350" data-aos-once="true">
+              <Typography variant='h5'>
+                <li>NextJs</li>
               </Typography>
            </Grid>
            <Grid item md={4} xs={6} sm={4} className="item-skill" data-aos="fade-up" data-aos-delay="400" data-aos-once="true">
