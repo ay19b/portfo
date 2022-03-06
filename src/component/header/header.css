@@ -81,7 +81,6 @@ nav.active{
     width: 90%;
     position: absolute;
     top: 100%;
-    right: 100%;
     z-index:10;
     align-items: center;
     height: 62vh;
@@ -96,6 +95,7 @@ nav.active{
 }
 .item-nav{
     margin-bottom: 4rem;
+    margin-left: -6%;
 }
 }
 @media screen and (max-width:340px){
