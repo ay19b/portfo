@@ -22,6 +22,7 @@ export default function Project() {
                 <Grid item md={5} xs={9} sm={5}  className="prg" key={id} data-aos="fade-up" data-aos-delay="100*key"data-aos-once="true">
                   <a href={live} target="_blank" rel='noreferrer'>
                      <div className="image"><img src={img} alt={name}/></div>
+                  </a> 
                      <div className='detail-prg'>
                        <Typography variant='h6' className="tit-project">{name}</Typography>
                        <div className="tools">
@@ -32,7 +33,7 @@ export default function Project() {
                        </div>
                     
                    </div> 
-                  </a>
+                  
                   
                 </Grid> 
                    

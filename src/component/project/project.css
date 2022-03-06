@@ -22,13 +22,13 @@
     background-color: #243433;
     color: white;
     box-shadow: 1px 1px 7px 2Px #0a3f3f;
-    cursor: pointer;
 }
 .image{
     height: 8.5rem;
     overflow: hidden;
     background-position:top;
     transition:ease-in-out 9s;
+    cursor: pointer;
 }
 .image img{
     width: 100%;
@@ -56,6 +56,13 @@
     font-weight: bold;
     text-decoration: none;
     padding-right: 5%;
+    cursor: context-menu;
+}
+.tit-project svg{
+    fill:white;
+}
+.tit-project svg:hover{
+    fill:rgb(177, 53, 53);
 }
 .tools {
     padding-top: 3%;

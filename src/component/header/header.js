@@ -39,7 +39,7 @@ export default function Header() {
             <div className="navbar-container">
              <Typography variant='h5'className="logo">PORTFOLIO</Typography>
             
-               <ul className={showLinks ?"list-nav":"list-nav active"} >
+               <ul className={!showLinks ?"list-nav":"list-nav active"} >
               
                 <li className="item-nav">
                 <Typography variant='subtitle1'>
