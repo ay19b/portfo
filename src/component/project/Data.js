@@ -1,5 +1,4 @@
 import {GrReactjs} from 'react-icons/gr'
-import {DiCss3} from 'react-icons/di'
 import jumia from '../../images/jumia.png'
 import Land from '../../images/Land.png'
 import HeadPhone from '../../images/HeadPhones.png'
