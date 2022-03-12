@@ -5,7 +5,7 @@ import jumia from '../../images/jumia.png'
 import Land from '../../images/Land.png'
 import HeadPhone from '../../images/HeadPhones.png'
 import restuarent from '../../images/restuarent.png'
-import FlashCard from '../../images/Flashcard.png'
+import FlashCard from '../../images/Flash.png'
 import Weather from '../../images/Weather.png'
 
 export const Data=[
