@@ -30,7 +30,8 @@ nav.active{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width:90%;
+    width: 96%;
+    margin: auto;
 }
 .logo{
     color: red;
@@ -70,7 +71,9 @@ nav.active{
     color: #8b2257;
 }
 @media screen and (max-width:800px){
-
+nav.active{
+    animation-name:none; 
+}
 .menu{
     display: flex;
 }

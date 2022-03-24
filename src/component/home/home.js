@@ -13,7 +13,9 @@ export default function Home() {
     },[]);
     return (
         <section className="home" id="home" >
+          
            <div className="content" data-aos="fade-right">
+           
               <Typography variant="caption" gutterBottom>Hi, my name is</Typography>
               <Typography variant='h3' gutterBottom>Ayoub Benmerabet</Typography>
               <Typography variant='h5' gutterBottom>front-end developer (React js)</Typography>
@@ -24,10 +26,11 @@ export default function Home() {
                  <Typography variant='h6' className="icon" gutterBottom data-aos="fade-up" data-aos-delay="100" data-aos-once="true"><FaLinkedin /></Typography>
               </div>
               <Button variant="contained" className="btn-content" data-aos="fade-right" data-aos-delay="650"data-aos-once="true" ><a href='#project'>see my work</a></Button>
-           </div>
+                   
+         </div>
 
         
-        
+          
       </section>
     )
 }

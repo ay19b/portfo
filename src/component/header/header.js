@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './header.css'
-import {Typography} from '@material-ui/core'
+import {Typography,Container} from '@material-ui/core'
 
 export default function Header() {
     const [showLinks, setShowLinks] = useState(false);
@@ -10,7 +10,7 @@ export default function Header() {
         setShowLinks(!showLinks);
       };
 
-    const handleClick = (e) => {
+  const handleClick = (e) => {
     e.preventDefault()
     const target = e.target.getAttribute('href')
     const location = document.querySelector(target).offsetTop
@@ -21,22 +21,24 @@ export default function Header() {
     })
   }
    const changeBackground=()=>{
-      if(window.scrollY>=60){
+     if(window.scrollY>=60){
         setNavbar(true)
       }else{
         setNavbar(false)
       }
     }
 
+
   useEffect(() => {
-    changeBackground()
-    window.addEventListener('scroll',changeBackground)  
+      window.addEventListener('scroll',changeBackground) 
   })
      
     return (
         
           <nav className={navbar?'active': ''}>
+            <Container>
             <div className="navbar-container">
+
              <Typography variant='h5'className="logo">PORTFOLIO</Typography>
             
                <ul className={!showLinks ?"list-nav":"list-nav active"} >
@@ -75,7 +77,7 @@ export default function Header() {
             
                <i className="menu fas fa-bars" onClick={toggleLinks}></i>
             </div>
-            
+            </Container>
           </nav> 
 
         
